@@ -1,0 +1,26 @@
+{
+  "name": "@bamapps/bam-action",
+  "version": "0.0.1",
+  "description": "Bam enabled git action",
+  "main": "main.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanApellanes/bam-action.git"
+  },
+  "author": "Bryan Apellanes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BryanApellanes/bam-action/issues"
+  },
+  "homepage": "https://github.com/BryanApellanes/bam-action#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jasmine": "^3.6.4"
+  },
+  "dependencies": {
+    "jasmine-spec-reporter": "^6.0.0"
+  }
+}

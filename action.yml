@@ -1,0 +1,9 @@
+name: 'bam-action'
+description: 'Bam enabled github action'
+inputs: 
+  bamArgsFile: 
+    description: 'A json file containing a serialized BamArgs instance.'
+    required: true
+runs: 
+  using: 'node12'
+  main: 'dist/index.js'
