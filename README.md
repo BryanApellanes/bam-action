@@ -1,2 +1,1 @@
-# bam-action
-Bam enabled github action
+# bam-job

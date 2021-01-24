@@ -1,9 +1,13 @@
-name: 'bam-action'
-description: 'Bam enabled github action'
+name: 'BamApp Job'
+description: 'Execute a bam app job'
 inputs: 
-  bamArgsFile: 
-    description: 'A json file containing a serialized BamArgs instance.'
-    required: true
-runs: 
+  arguments-file-path: 
+    description: 'Path to the json or yaml file that represents arguments to the job'
+outputs:
+  time:
+    description: 'The time the job was run'
+  status:
+    description: 'Value indicating success or failure'
+runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: action.js
